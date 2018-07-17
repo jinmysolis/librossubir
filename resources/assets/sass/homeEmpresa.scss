@@ -1,0 +1,140 @@
+/*////////////home empresa///////////////////*/
+
+#aler-homeEmpleo{
+    background-color: #3a3b69;
+    margin: 0;
+    
+}
+
+#btn-registro-phome{
+    background-color: #006634;
+}
+
+
+.ul-homeEmpleo{
+     display: flex;
+     align-content: center;
+     justify-content: space-around;
+}
+
+.li-menu-homeEmpleo{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+    width: 180px;
+    flex-wrap: wrap;
+    height: 100px;
+}
+
+.img-ul-homeEmpleo{
+    width: 30%;
+    background-size: contain;
+}
+
+#btn-menuEmpleo {
+    width: 115px;
+    background-color: #006634;
+}
+
+#btn-menuEmpleo:hover {
+   
+    background-color: #3a3b69;
+}
+
+#btn-menuEmpleo img{
+    width: 32px;
+    height:32px;
+}
+
+#seña{
+    color:#fff;
+}
+
+/* ==================================================
+  Call-to-action Styling
+  ================================================== */
+.cta {
+  background-color: #006634;
+  padding: 25px 0;
+  box-shadow: 4px 4px 10px #999;
+  width: 500px;
+}
+
+.cta h2 {
+  margin-bottom: 5px;
+}
+
+.cta h2,
+.cta p {
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.cta p {
+  margin-bottom: 0;
+  opacity: .75;
+}
+
+.cta .btn-ghost {
+ 
+  top: 13px;
+}
+
+.btn-ghost {
+  border: 3px solid #fff;
+  background-color: transparent;
+}
+
+.btn-ghost:hover {
+  background-color: #fff;
+  color: #199EB8;
+}
+
+.span-pempresa{
+    color: coral;
+    font-style:italic;
+    font-weight: bold;
+}
+
+#span-pempresa-container{
+    display: flex;
+   flex-direction: column;
+}
+
+#row-pempresa{
+   
+   
+}
+
+.fa{
+    color:green;
+    font-size: 45px;
+}
+.color-text{
+   color:#006634; 
+   font-size: 20px;
+   text-transform: uppercase;
+}
+
+#list-group-showOfertas{
+    margin-bottom: 0;
+    margin-top: 0;
+    color:#006634;
+}
+
+.ul-show-oferta{
+    display: flex;
+    margin-top: 0;
+    margin-bottom: 0;
+    background-color: #006634;
+    justify-content: space-around;
+    list-style: none;
+    
+}
+
+.li-show-oferta{
+     display: flex;
+    color: #fff;
+     flex-direction: column;
+     align-items: center;
+}

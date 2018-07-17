@@ -1,0 +1,249 @@
+body{
+    max-width: 1280px;
+   
+}
+
+.logo {
+    display: flex;
+   
+}
+
+
+
+.logo img{
+    
+   
+ background-size: cover;
+  width: 830px;
+  height:130px; }
+
+
+
+/* Estilo base para aplicar a todos los menús */
+.menu-section {
+	
+	border-bottom: 1px solid black;
+}
+
+.menu ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+   
+	
+}
+
+.menu li  {
+	margin-top: 1px;
+    
+    
+   
+}
+
+
+.menu li a {
+	display: flex;
+	text-decoration: none;
+	color: #256739;
+    margin-top: 20px;
+    margin-right: 5px;
+    padding-right: 4px;
+    border-right: 1px solid #256739;
+    height: 19px;
+  
+  
+   
+}
+
+.menu li a:hover {
+	color: red;
+}
+
+#nav-icon {
+  padding-top: 10px;
+}
+
+
+
+#nav-icon li a{
+  border-right: 1px solid white;
+    margin-right: 1px;
+    padding: 0;
+}
+
+#nav-icon img{
+    width: 30px;
+    height: 30px;
+     transition: all 1s ease;
+    
+    
+}
+
+#nav-icon  img:hover  {
+             transform: rotateY(360deg);
+            transform-style: preserve-3d;
+            
+        }
+
+
+#menu-principal{
+    background-color: #29375c;
+    color: white;
+    
+    
+}
+#menu-principal li {
+    
+    color: white;
+    align-items: center;
+   
+}
+#menu-principal li a{
+    
+    color: white;
+    margin-top: 2px;
+    padding-bottom: 25px;
+     border-right: 1px solid white;
+    justify-content: center;
+}
+     
+#menu-principal li a:hover {
+	color: #28653c;
+}
+
+
+#menu-icono{
+   margin-top: 50px;
+}
+
+#menu-icono ul{
+    display: flex;
+    justify-content: center;
+}
+
+
+#menu-icono ul li a{
+    background-color: #29375c;
+    width: 120px;
+    padding: 0;
+    margin-right: 5px;
+    border: 1px solid #29375c;
+}
+
+#menu-icono ul li a:hover{
+    background-color: white;
+    border: 1px solid #28653c;
+    
+}
+
+#menu-icono ul li a img{
+    
+    width: 45px;
+}
+
+
+#menu-icono-letra{
+   margin-top: -40px;
+}
+
+#menu-icono-letra ul{
+    display: flex;
+    justify-content: center;
+     margin-top: -80;
+}
+
+
+#menu-icono-letra ul li a{
+    font-size: 15px;
+    color: #263355;
+    width: 120px;
+    padding: 0;
+      margin-top: -80;
+    background-color: white;
+    margin-right: 5px;
+    border: 1px solid white;
+}
+
+#menu-icono-letra ul li span{
+    color: red;
+    font-size: 67px;
+}
+
+#menu-icono-letra ul li a:hover{
+    
+    border-bottom: 1px solid #28653c;
+    color: #28653c;
+}
+
+
+#menu-lateral ul li  {
+    
+   
+    list-style: none;
+    margin-top: 8px;
+    margin-left: 18px;
+
+}
+
+#menu-lateral ul li a.btn-success {
+    
+   
+    color: #fff;
+    background-color: #263355;
+    border: 1px solid #263355;
+    font-size: 19px;
+    width: 180px;
+    display: flex;
+    align-items: center;
+    padding-left: 0;
+    border-radius: 0;
+    justify-content: space-between;
+    box-shadow: 4px 4px 7px #999;
+
+}
+
+#menu-lateral ul li a.btn-success:hover {
+    
+   
+    color: #28653c;
+    background-color: #fff;
+    border: 1px solid #28653c;
+    box-shadow: 4px 4px 7px #28653c;
+    
+
+}
+
+#menu-lateral .gente img{
+    width: 180px;
+    height: 180px;
+    margin-left: 60px;
+    margin-top: 40px;
+    box-shadow: 4px 4px 7px #999;
+
+}
+
+
+#menu-lateral ul li a.btn-success img{
+    
+   
+   width: 40px;
+   
+}
+
+footer{
+    margin-top: 35px;
+}
+
+
+/* Estilo para el menú de nivel simple */
+@media screen and (min-width: 20em){
+    .single-nav ul{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .single-nav li{
+        flex: 1 0 auto;
+        text-align: center;
+    }
+}

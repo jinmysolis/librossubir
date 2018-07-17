@@ -1,0 +1,64 @@
+
+// Fonts
+@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);
+
+// Variables
+@import "variables";
+
+
+// Bootstrap
+@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+
+
+
+*{
+    box-sizing: border-box;
+    
+}
+
+
+
+.izquierda{
+    
+    margin-left: -540px !important;
+    opacity: 0;
+}
+
+
+
+body{
+   
+   max-width: 1280px;
+   height: 100%;
+   margin: 0 auto;
+  
+   
+}
+
+
+.total-heid{
+
+    min-height: 100vh;
+}
+
+
+.ancchoalto{
+    width: 300px !important;
+   
+   
+}
+
+/* ////////////////////header////////////////// */
+
+* {
+	margin:0;
+	padding:0;
+}
+ 
+
+
+.logo{
+   
+    width: 150px;
+    height: 150px !important;
+}
